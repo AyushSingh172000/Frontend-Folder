@@ -1,25 +1,25 @@
 /* Descendent Selector  */
-/* article p{
+article p{
     color: blue;
-} */
+} 
 /* Direct Child Selector */ 
- /* article>p{
+ article>p{
     color: mediumvioletred;
-}  */
- /* article>.child1{ 
+}  
+  article>.child1{ 
      color: mediumvioletred;
-}  */
- /* article>main>p{
+}  
+  article>main>p{
     color: orange;
-}   */
+}   
  /* General Sibling Selector(~)  */
-  /* article~span{
+  article~span{
     color: yellow;
- }  */
- /* article~p{
+ }  
+  article~p{
     color: red;
- } */
+ } 
  /* Immediate Sibling Selector */
-  /* article+div{
+   article+div{
     color: red;
-  } */
+  } 
