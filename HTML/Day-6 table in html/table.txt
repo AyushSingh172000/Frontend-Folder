@@ -1,0 +1,28 @@
+#Cell spanning:
+In html, we have 2 ways to sapan the cells.
+1. Rowspan:- Rowspan is an attribute used to sapn the cells on basis.
+2. Colspan:- Colspan is an attribute used to span the cells on column basis.
+
+#attribute of Table Tag:
+1. Cellpadding:- To create space between call border and cell content is known as callpadding.
+2. Cellspacing:- To create space between outside the cell is known as callspacing.
+3. Border:- It is used to provide border.
+4. Rules=all
+5.Align=center
+
+# T Head Tag:-
+1. It is container tag.
+    It is represents top most part of out table.
+    the top most part of out table we have to write with in <thead>>/thead> tag.
+
+#Tfoot Tag:-
+1. It is container Tag.
+2. The remaining content of out table we have to write with in <tbody></tbody> tag.
+
+#Tfoot Tag:-
+1. It is container tag.
+2. The conclusion or summary of the table we have to write with in <tfoot></tfoot> tag.
+3. It represents buttom most part of our table.
+
+#Note:- 
+    Thead,Tbody and Tfoot tag are highly recommended for better explanation to crawler and code understanding purpose.

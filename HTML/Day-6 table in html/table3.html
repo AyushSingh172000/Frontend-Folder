@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Part-3</title>
+    <style>
+        thead{
+            background-color: aqua;
+        }
+        tfoot{
+            background-color: rgb(5, 0, 8);
+            color: white;
+        }
+        tbody{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <table border="1px" rules="all">
+       <thead>
+        <tr align="center">
+            <td>DAYS</td>
+            <td>1<sup>st</sup> HALF</td>
+            <td>BREAK</td>
+            <td>2<sup>nd</sup> HALF</td>
+        </tr>
+       </thead>
+        <tr align="center">
+            <td>MONDAY</td>
+            <td>JAVA</td>
+            <td rowspan="5">LUNCH</td>
+            <td>DBMS</td>
+        </tr>
+        <tr align="center">
+            <td>TUESDAY</td>
+            <td>OS</td>
+            <td>NETWORKING</td>
+        </tr>
+        <tr align="center">
+            <td>WEDNESDAY</td>
+            <td>HTML</td>
+            <td>CSS</td>
+        </tr>
+        <tr align="center">
+            <td>THURSDAY</td>
+            <td>JAVASCRIPT</td>
+            <td>DSA</td>
+        </tr>
+        <tr align="center">
+            <td>FRIDAY</td>
+            <td>AI/ML</td>
+            <td>CYBERSECURITY</td>
+        </tr>
+       <tfoot>
+        <tr align="center">
+            <td>SATURDAY</td>
+            <td colspan="3">WEEK OFF</td>
+        </tr>
+        <tr align="center">
+            <td>SUNDAY</td>
+            <td colspan="3">HOLIDAY</td>
+        </tr>
+       </tfoot>
+    </table>
+</body>
+</html>

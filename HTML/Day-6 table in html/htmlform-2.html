@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form-2</title>
+    <!-- <style>
+        sup{
+            color: red;
+        }
+    </style> -->
+</head>
+<body>
+    <form action="#">
+        <!-- Name <input type="name" name="User_name" value="Misthi" disabled> <br><br>
+        Mobile No. <input type="mob" name="User_Mobile" value="+91-6326548786" readonly><br><br> -->
+        <!-- Name <input type="name" name="User_name" placeholder="Enter Your Full Name"> <br><br>
+        Mobile No. <input type="mob" name="User_Mobile" placeholder="Enter Your Mobile No."><br><br>
+        Email <input type="email" name="User_Email"placeholder="Enter Your E-mail"><br><br>
+        Password <input type="password" name="User_Password" placeholder="At least 8 Character"><br><br> -->
+        <!-- Name <input type="name" name="User_name" placeholder="Enter Your Full Name"> <br><br>
+        Mobile No. <input type="mob" name="User_Mobile" placeholder="Enter Your Mobile No."><br><br>
+        Email <sup>*</sup><input type="email" name="User_Email"placeholder="Enter Your E-mail" required><br><br>
+        Password <sup>*</sup><input type="password" name="User_Password" placeholder="At least 8 Character" required><br><br> -->
+        <!-- Name <input type="name" name="User_name" size="40" placeholder="Enter Your Full Name" autofocus minlength="2" maxlength="16" autocomplete="off" > <br><br>
+        Mobile No. <input type="mob" name="User_Mobile" placeholder="Enter Your Mobile No." minlength="10" maxlength="10"><br><br>
+        Email <input type="email" name="User_Email"placeholder="Enter Your E-mail"><br><br>
+        Password <input type="password" name="User_Password" placeholder="At least 8 Character"><br><br> -->
+        <fieldset>
+            <legend align="center">Login Form</legend>
+        <label for="User_name">Name</label>
+        <input type="name" id="User_name" name="Name" placeholder="Enter Your Full Name"> <br><br>
+        <label for="User_Mobile">Mobile No.</label>
+        <input type="mob" id="User_Mobile" name="Mobile number" placeholder="Enter Your Mobile No."><br><br>
+        
+        <label for="User_Email">Email</label>
+        <input type="email" id="User_Email" name="E-mail" placeholder="Enter Your E-mail"><br><br>
+         
+        <label for="User_Password">Password</label>
+        <input type="password" id="User_Password" name="Password" placeholder="At least 8 Character"><br><br>
+        
+        
+
+
+        <br><br>
+        Calculate 10*2 <br>
+        <input type="number" min="0" max="100" step="10">
+        <br><br>
+        Select Salary range <br><br>
+        <input type="range" min="0" max="100" step="20" value="0"><br><br>
+        <input type="submit" value="Create Your Account">
+        <input type="reset" value="Cancel"><br><br>
+
+        Year of Passout Details <br>
+        <select name="Student_YOP" id="">
+            <option value=""disabled selected>Select Your YOP</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            
+        </select>
+        <br><br>
+        <!-- data list -->
+         <input type="text" name="state" placeholder="Enter your state" list="state-name">
+         <datalist id="state-name">
+            <option value="Delhi"></option>
+            <option value="Mumbai"></option>
+            <option value="Uttar Pradesh"></option>
+            <option value="Bihar"></option>
+            <option value="Uttrakhand"></option>
+         </datalist>
+         <br><br>
+         <label for="state-list">
+            User Feedback Details
+        </label><br>
+        <textarea name="feedback" id="state-list" rows="10" cols="30" placeholder="write something....!!!"></textarea>
+        
+    
+         
+    </fieldset>
+    </form>
+    
+</body>
+</html>
