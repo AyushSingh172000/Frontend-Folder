@@ -1,0 +1,23 @@
+/*Google fonts import directly for css*/
+
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap'); */
+
+/* div{
+    font-size: 80px;
+    font-style: italic;
+    font-weight: bold;
+    font-style:oblique 40deg;
+    font-family: "Dancing Script", cursive;
+}  */
+
+@font-face {
+    font-family:'misthi';
+    src: url('./font/DancingScript-SemiBold.ttf');
+}
+
+div{
+    font-size: 85px;
+    font-weight: bold;
+    font-style:oblique 20deg;
+    font-family:'misthi';
+}
