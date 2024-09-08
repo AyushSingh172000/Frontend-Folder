@@ -1,0 +1,23 @@
+body
+{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: black;
+}
+div
+{
+    color: white;
+}
+
+div::before
+{
+    content: "Ram Ram";
+    color: orangered;
+}
+div::after
+{
+    content: "Saryanee👍";
+    color: greenyellow;
+}
