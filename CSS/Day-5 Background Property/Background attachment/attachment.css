@@ -17,27 +17,27 @@ section{
     background-position: center center;
     background-attachment: fixed;
 }
-section-1{
-    background-image: url();
-
-}
-section-2{
-    background-image: url();
-
-}
-section-3{
-    background-image: url();
-
-}
-section-4{
-    background-image: url();
-
-}
-section-5{
-    background-image: url();
-
-}
-section-6{
-    background-image: url();
-
-}
+.section-1{
+       background-image: url('https://jlr.scene7.com/is/image/jlr/L46224GL_303101655_001');
+   
+   }
+   .section-2{
+       background-image: url('https://t4.ftcdn.net/jpg/05/37/32/57/360_F_537325726_GtgjRiyc37BLPn9OmisBVVZec9frLaL0.jpg');
+   
+   }
+   .section-3{
+       background-image: url('https://images.pexels.com/photos/3729464/pexels-photo-3729464.jpeg?cs=srgb&dl=pexels-mikebirdy-3729464.jpg&fm=jpg');
+   
+   }
+   .section-4{
+       background-image: url('https://imgd.aeplcdn.com/370x208/n/cw/ec/141867/nexon-exterior-right-front-three-quarter-71.jpeg?isig=0&q=80');
+   
+   }
+   .section-5{
+       background-image: url('https://bmw.scene7.com/is/image/BMW/iX?wid=3000&hei=3000');
+   
+   }
+   .section-6{
+       background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuq3MjMXuAZa9-vhk0NmkanQCPVsTkKiHg7Q&s');
+   
+   }
