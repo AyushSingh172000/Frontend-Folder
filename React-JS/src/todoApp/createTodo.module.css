@@ -1,0 +1,35 @@
+#createTodo > form {
+  width: 20%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgb(184, 103, 255);
+  border-radius: 10px;
+  box-shadow: 0 0 3px black;
+}
+#createTodo > form > h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#createTodo > form > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  gap: 10px;
+}
+#createTodo > form button {
+  padding: 2px 10px;
+  border-radius: 2px;
+  border: none;
+  font-weight: lighter;
+  text-transform: capitalize;
+  box-shadow: 0 0 1px black;
+  cursor: pointer;
+  width: 100%;
+}
+#createTodo > form input {
+  padding: 2px 5px;
+  border: 1px solid gainsboro;
+  width: 100%;
+  border-radius: 3px;
+}

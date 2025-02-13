@@ -1,7 +1,8 @@
 /* Descendent Selector  */
+
 /* article p{
     color: blue;
-} */
+}  */
 /* Direct Child Selector */ 
  /* article>p{
     color: mediumvioletred;
@@ -20,6 +21,9 @@
     color: red;
  } */
  /* Immediate Sibling Selector */
-  /* article+div{
+  /* article+p{
     color: red;
   } */
+   
+
+   

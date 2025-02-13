@@ -1,0 +1,87 @@
+# React:-
+
+React is the library(collection of predefined code) of javascript.
+We can make single page application with the help of react.
+
+# Feature of React:-
+1) Single Page Application.
+2) Declarative in nature(user will tell What to do and react know how to do?).
+3) Component(Building block of a web page) Based Architecture.(Code with different different block and when merge it will make SPA).
+4) Virtual DOM(Exact copy of Real DOM)(React use Diffing Algorithm to compare the difference between real DOM and Virtual DOM and make changes or update in the real DOM with the help of patching).This Process is called Reconcilation.
+
+
+
+
+
+# Types of Application:-
+1) Single Page Application:-(ex:- gmail (Page will not reload))(Cached Storage used) 
+It is faster.
+Single html page.
+Search Engine Optimization is not better.
+
+2) Multi Page Application:- (ex:- Amazon(Page will reload)) 
+It is slower.
+Multiple html page.
+Search Engine Optimization is better.
+
+# Framework:-
+collection of library.
+/);// render() is used display something on UI 
+
+// <h1> is xml tag. xml has user defined tag whereas html has pedefined tag. 
+// xml requires a parent tag whereas html does not require parent tag. xml is case sensitive
+//component first letter start with capital letter. If we start with small letter then it will give error.
+// Class Based Component(Complicated code)
+// Function Based Component (Simple Code)
+/**
+ * Difference between Class based Component and Function Based Component
+ * 
+ * Class Based Component:-  
+ * we use javascript classes
+ * In-built(Statefull)
+ * no hooks
+ * Have lifecycle methods
+ * Have render method
+ * Have this keyword
+ * 
+ * Function Based Component:-
+ * we use javascript function
+ * Stateless
+ * To make function statefull we use hooks(in-built function in react)
+ * no life cycle methods
+ * no render method
+ * no this keyword
+ * Syntax:-
+ * const App = () =>{
+ * return(
+ *  <h1> App </h2>
+ * )
+ }
+ * export default App;
+ * 
+ * 
+ * type of css in react
+ * Inline CSS
+ * Global CSS
+ * Module CSS - filename.module.css
+ * 
+ * 
+ * Forms are of two type:-
+   1> Controlled form(Use Virtual Dom)
+   2> Uncontrolled form (Use Real Dom)
+
+   Life Cycle of a component and its method:-
+   It is a process in which component appears on the UI and its update and remove from UI.
+   Mounting: constructor(), render(), componentDidMount
+   Updating: render(), getSnapshotBeforeUpdate, componentDidUpdate(), 
+   Unmounting: componentWillUnmount().
+
+   useEffect(() => {},[dependency arr]) // callback func, depn arr
+
+   useContext() => it is a hook which is used to avoid propsdrilling.
+
+   context is a storeroom where data can be stored and prvide the access to the component where component can use that.
+
+   Steps- 1) Create a context 2) Provide a context 3) Consume a context
+
+ */

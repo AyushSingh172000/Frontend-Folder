@@ -1,0 +1,115 @@
+/* article :nth-child(odd){
+    color: orangered;
+}
+article>:nth-child(even){
+    color: purple;
+} */
+
+/* article>:nth-child(2),:nth-child(4),:nth-child(6)
+{
+    color: magenta;
+} */
+
+/* article :nth-last-child(2)
+{
+    color: aqua;
+} */
+
+/* article>*{
+    color: orange;
+} */
+
+/* first-of-type */
+
+/* article>p:first-of-type
+{
+    color: orangered;
+}
+
+/* last-of-type */
+
+/* article>p:last-of-type
+{
+    color: purple;
+} */
+
+/* nth-of-type */
+/* 
+article>p:nth-of-type(3)
+{
+    color: blue;
+} */ 
+/* 
+a{
+    text-decoration: none;
+} */
+
+/* a:link
+{
+    color: rgb(67, 227, 104);
+} */
+
+/* a:active
+{
+    color: yellow;
+} */
+
+/* a:visited
+{
+    color: purple;
+} */
+
+/* a:hover
+{
+    color: rgb(8, 2, 13);
+} */
+
+/* div::first-letter
+{
+    font-size: 25px;
+    font-style: italic;
+    color: red;
+} */
+
+/* p::first-line
+{
+    color: pink;
+} */
+
+/* p::selection
+{
+    color: green;
+} */
+
+/* *::selection
+{
+    color: red;
+} */
+
+ ol>li:nth-of-type(odd)::marker
+{
+    content:"💕";
+}
+
+
+ol>li:nth-of-type(even)::marker
+{
+    content:"🐖";
+} 
+
+ol>li:nth-last-of-type(4)::marker
+{
+    content:"🦣";
+}
+
+ol>li:nth-last-of-type(1)::marker
+{
+    content:"🐂";
+}
+/* ol>li::marker
+{
+    content: "\f061";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: red;
+} */

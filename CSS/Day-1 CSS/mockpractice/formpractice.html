@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Practice-Mock</title>
+</head>
+<body>
+    <form action="#" autocomplete="on">
+        <fieldset>
+            <legend align="center">Login Form</legend>
+        <!-- Name <input type="text" name="user-name" placeholder="Enter Your Name" size="20" maxlength="16" minlength="2" autofocus><br><br> -->
+         <label for="user-name">Name</label>
+         <input type="text" name="name" id="user-name" placeholder="Enter your name" autofocus><br><br>
+        Mob <input type="tel" name="mobile-no"  placeholder="Enter Mob.No." size="10" maxlength="10" minlength="10"><br><br>
+        E-mail <sup>*</sup><input type="email" name="e-mail" required><br><br>
+        Password <sup>*</sup><input type="password" name="password" required><br><br>
+        DOB <input type="date" name="dob"><br><br>
+        Date and Time <input type="datetime-local" name="date and time"><br><br>
+        Aadhar Card Number <input type="number" name="adhar no."><br><br>
+        Color <input type="color"><br><br>
+        Range <input type="range"><br><br>
+        Linkdin Link <input type="url"><br><br>
+        Gender <br><br>
+        <input type="radio" name="gender" checked>Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Others
+        <br><br>
+        Hobbies <br><br>
+        <input type="checkbox" checked>Singing
+        <input type="checkbox">Dancing
+        <input type="checkbox">Travelling
+        <input type="checkbox">Playing Cricket
+        <input type="checkbox" checked>Coding
+        <br><br>
+        Select Salary Range <input type="range" max="100" min="0" step="10" value="0"><br><br>
+        Submit Your Resume <input type="file" accept=".pdf" multiple><br><br>
+        Year of Passout Details <br>
+            <select name="student-yop" id="">
+                <option value="" disabled selected>--Select your YOP--</option>
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+            </select><br><br>
+        <input type="button" value="Menu">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Cancel">
+
+    </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+/* div{
+    color: red;
+} */
+
+/* div{
+    color:#ff0000;
+} */
+div{
+    color: #0f0;
+}
+div{
+    color:rgba(0, 0, 0, 0.874);
+    font-size: 105px;
+}
+body{
+    background-color: rgba(255, 0, 0, 0.591);
+}
