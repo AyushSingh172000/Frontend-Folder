@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
  box-sizing: border-box;
  margin: 0:
@@ -18,4 +19,26 @@ div{
     text-shadow: -300px -200px 0px orange,
     300px 200px 0px green;
     
+=======
+*{
+ box-sizing: border-box;
+ margin: 0:
+ padding: 0;
+}
+
+body{
+ width: 100vw;
+ height: 100vh;
+ background-color: black;
+ display: grid;
+ place-items: center;
+}
+
+div{
+    font-size: 125px;
+    color: white;
+    text-shadow: -300px -200px 0px orange,
+    300px 200px 0px green;
+    
+>>>>>>> d12383a91b9c2d74bc4c9a6c672108ddbbbc5d5e
 }

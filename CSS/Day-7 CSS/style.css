@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     box-sizing: border-box;
     margin: 0;
@@ -25,4 +26,33 @@ body{
 }
 .card-3{
     background-color: magenta;
+=======
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    display: inline-block;
+}
+.card-1{
+    background-color: tomato;
+}
+.card-2{
+    background-color: teal;
+    /* display: none; */
+    /* visibility: hidden; */
+    opacity: 20;
+}
+.card-3{
+    background-color: magenta;
+>>>>>>> d12383a91b9c2d74bc4c9a6c672108ddbbbc5d5e
 }
