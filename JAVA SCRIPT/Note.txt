@@ -1,0 +1,79 @@
+# Identifier:- User given name
+1. Name of a class
+2. Name of a method(Function)
+3. Name of a Variable
+# Rules of an Identifier:
+1.An Identifier can be written by using alphabet(A-Z,a-z),number(0-9) and only two special character(dollar$ and _ underscore).
+2.An Identifier must not starts with a number.
+3.Any space is not allowed for an Identifier.
+4.Any keyword is not allowed for an Identifier.
+* Conventions: These are the set of guidlines for good programming practices.
+* Conventions for a Variable name:-
+    
+    const PI=3.14;(it is universal constant that is why we write in uppercase).
+    const BASE_URL="https://www.example.com";
+
+    ex: const user="Ram"; If a Variable has only one word then it should be written in lower case letters.
+        
+        const userId=103;(Lower Camel Casing Convention).// more prefered. If a Variable has more than one word then first word should be written in lower case letter and from second word first letter of each word should be written in uppercase letter. This type of writting is called lower camel casing convention.
+        
+        const user_id=103;
+
+* Conventions for a Method name:-
+    function greet(name){
+
+    }
+
+****imp**** Constructor Function:
+    function CreateObject(){
+
+    }(in this we use upper camel case).
+
+    Convention for a class name:upper camel casing is used into this.
+
+    class Program1{
+
+    }
+
+    class CreateUser{
+
+    }
+
+Literals: They are different types of values that is used in writting a program.
+            Number(8),String("Hii")// 8, Hii these are Literals.
+            Types of Literals: 1. Primitive Literals: i. Immutable(can't change)
+                                                        ii. Single Valued Literals.
+                                    Types of Primitive:i. Number
+                                    ii.bigInt
+                                    iii.Nan
+                                    iv.Boolean
+                                    v.Null
+                                    vi.Undefined 
+                                    vii.String
+                                    viii.Symbol
+
+                            2. Non-Primitive Literals: i. Mutable(can change)
+                                                        ii. Multi Valued Literals :- {},[],() // get to know the Multi Valued Literals.
+                                                        Types : 1.Array.
+                                                                2.Object.
+iv: Boolean: True/False | Truthy/Falsy Values: 1. 0
+                                                2. 0n
+                                                3. Null
+                                                4. Undefined
+                                                5. Nan
+                                                6. " " // empty string.
+
+vii: String: Collection of characters.
+     Types of String:1> Single Line String: value get stored in " "/'' quotes.
+                                            Line breaks are not allowed.
+                    2> Multi Line String: value get stored in backticks (` `).
+                            ex: var user = "Ram";
+                             c.log(`Good Morning: ${user}`)
+                                when we put or inject the value into the string that is called String Interpolation.
+
+viii: Symbol: 
+
+GLOBAL EXECUTION CONTEXT (GEC): It has two phases 1. Variable phase // In this phase the variable declaration statement is written. 2. Execution phase // In this phase the variable intialization statement is written and it also give the output statement.
+
+
+                 
