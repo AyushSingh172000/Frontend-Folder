@@ -17,4 +17,13 @@
 // }
 // console.log(Reverse(12345));
 
+//*************************************Iterators************************* */
+
+// for (let i = 1; i <= 10; i++) {
+//     const element = i;
+//     console.log(element);
+// }
+
+
+
 
