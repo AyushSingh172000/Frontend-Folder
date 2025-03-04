@@ -23,7 +23,68 @@
 //     const element = i;
 //     console.log(element);
 // }
+//  While Loop
+// let arr=["IronMan","Captain America","Thor","Thanos"]
+// let i=0;
+// while (i<arr.length) {
+//     console.log(`Name is ${arr[i]}`);
+//     i++;
+// }
+
+// for of loop
+
+// const arr = [1, 2, 3, 4, 5]
+
+// for (const num of arr) {
+//     console.log(num);
+    
+// }
+
+// Maps ** Important**
+
+// const map = new Map()
+// map.set('IN', "India")
+// map.set('USA', "United State Of America")
+// map.set('Fr', "France")
+// map.set('Rs', "Russia")
+// map.set('IN', "India")
+
+//console.log(map);
+
+// for (const key of map) {
+//     console.log(key);
+    // The whole output come in an array to remove this use destructuring
+// }
+
+// for (const [key, value] of map) {
+//     console.log(key, ':->', value);
+    
+// }
+
+// Output:-> IN :-> India 
+// USA :-> United State Of America 
+// Fr :-> France 
+// Rs :-> Russia
 
 
 
 
+// for in loop
+// let object = {
+//     JS : "JavaScript",
+//     CPP : "C++",
+//     RB : "Ruby",
+//     Swift : "swift by apple"
+// }
+
+// for (const key in object) {
+//     console.log(`${key} shortcut is for ${object[key]}`);
+    
+// }
+
+// const programming = ["js", "rb", "py", "java", "cpp"]
+
+// for (const key in programming) {
+//     console.log(programming[key]);
+    
+// }
