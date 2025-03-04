@@ -62,5 +62,23 @@
 // }
 // console.log(printObject(obj1));
 
+// function one(){
+//     const username = "Ayush"
+//     function two(){
+//         const website = "Youtube"
+//         console.log(username);
+        
+//     }
+//     //console.log(website);
+
+//     two()
+    
+// }
+// console.log(one()());
+
+// ****************************Arrow Function************************//
+
+// const Add = (num1, num2)=> (num1+num2)
+// console.log(Add(3,4));
 
 
