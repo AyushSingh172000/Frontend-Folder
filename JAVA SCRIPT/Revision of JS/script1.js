@@ -89,7 +89,7 @@
     
 // }
 
-const coding = ["js", "rb", "py", "java", "cpp"]
+// const coding = ["js", "rb", "py", "java", "cpp"]
 // coding.forEach(function(val){
 //     console.log(val);
     
@@ -145,24 +145,24 @@ const coding = ["js", "rb", "py", "java", "cpp"]
 // })
 // console.log(newNums);
 
-const books=[
-    {
-        title: 'Book One', genre: 'Fiction', publish: 1981, edition: 2004
-    },
-    {
-        title: 'Book Two', genre: 'Fiction', publish: 1921, edition: 2008
-    },
-    {
-        title: 'Book Three', genre: 'History', publish: 1971, edition: 2010
-    },
-    {
-        title: 'Book Four', genre: 'Science', publish: 1941, edition: 2004
-    },
-    {
-        title: 'Book Five', genre: 'Science', publish: 2020, edition: 2025
-    },
+// const books=[
+//     {
+//         title: 'Book One', genre: 'Fiction', publish: 1981, edition: 2004
+//     },
+//     {
+//         title: 'Book Two', genre: 'Fiction', publish: 1921, edition: 2008
+//     },
+//     {
+//         title: 'Book Three', genre: 'History', publish: 1971, edition: 2010
+//     },
+//     {
+//         title: 'Book Four', genre: 'Science', publish: 1941, edition: 2004
+//     },
+//     {
+//         title: 'Book Five', genre: 'Science', publish: 2020, edition: 2025
+//     },
     
-];
+// ];
 
 // const userBooks = books.filter((item)=>{return item.edition===2004})
 // console.log(userBooks);
@@ -171,3 +171,40 @@ const books=[
 //     return item.genre === 'Science'
 // })
 // console.log(userBooks);
+
+// const myNumbers = [1,2,3,4,5,6,7,8,9,10]
+
+// const newNumber = myNumbers.map((item)=> item+10)
+// console.log(newNumber);
+// const newNumber = myNumbers.map((item) => {return item + 10})
+// console.log(newNumber);
+
+
+
+// ********************By using for each loop***********************//
+
+// myNumbers.forEach((value, index, arr)=>{
+//     arr[index]=value+10;
+// });
+// console.log(myNumbers);
+
+/************************Chaining ************************** */
+
+// const myNumbers = [1,2,3,4,5,6,7,8,9,10]
+
+// const newNum = myNumbers
+//                         .map((item)=>item*10)
+//                         .map((item)=>item+2)
+//                         .filter((item)=>item>=40)
+// console.log(newNum);
+
+// const myNumbers = [1,2,3,4,5,6,7,8,9,10]
+
+// const newNum = myNumbers
+//                         .map((item)=>item*10)
+//                         .map((item)=>item+1)
+//                         .filter((item)=>item%2==1)
+// console.log(newNum);
+
+/************************Reduce************************** */
+
