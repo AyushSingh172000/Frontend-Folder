@@ -27,13 +27,39 @@
 // //{ name:"chombi",age:16 }
 
 // Functions//
-let a=10;
-let b=10;
-var sum=0;
-function Add(a,b) {
-     sum = a+b;
-     return sum;
-}
-Add(a,b)
-console.log(`Sum of ${a} and ${b} is: ${sum}`);
+// let a=10;
+// let b=10;
+// var sum=0;
+// function Add(a,b) {
+//     return sum=a+b;
+//     //  sum = a+b;
+//     //  return sum;
+// }
+// Add(a,b)
+// console.log(`Sum of ${a} and ${b} is: ${sum}`);
+
+// Array in Function//
+
+// let arr1=["Hi","My","Name","is","Ayush","Singh"];
+// function myArr() {
+//     for (let index = 0; index < arr1.length; index++) {
+//          console.log(arr1[index]);   
+//     }
+    
+// }
+// console.log(myArr(arr1));
+
+// Object in Function //
+
+// let obj1={
+//     name: "Misthi",
+//     email: "misthi@gmail.com",
+//     phone: 6392301514,
+//     city: "varanasi"
+// }
+// function printObject() {
+//     return(obj1.email);
+// }
+// console.log(printObject(obj1));
+
 
