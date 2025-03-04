@@ -49,7 +49,7 @@
 // map.set('Rs', "Russia")
 // map.set('IN', "India")
 
-//console.log(map);
+//console.log(map); // for in loop not work on map 
 
 // for (const key of map) {
 //     console.log(key);
@@ -88,3 +88,41 @@
 //     console.log(programming[key]);
     
 // }
+
+const coding = ["js", "rb", "py", "java", "cpp"]
+// coding.forEach(function(val){
+//     console.log(val);
+    
+// })
+
+// function printMe(item){
+//     console.log(item);
+    
+// }
+// coding.forEach(printMe);
+
+// coding.forEach((item, index, arr)=>{
+//     console.log(item, index, arr);
+    
+// })
+
+// const myCoding = [
+//     {
+//         languageName: "javascript",
+//         languageFileName: "js"
+//     },
+//     {
+//         languageName: "java",
+//         languageFileName: "java"
+//     },
+//     {
+//         languageName: "python",
+//         languageFileName: "py"
+//     },
+// ]
+
+// myCoding.forEach((item)=>{
+//     console.log(item.languageName);
+    
+// })
+
