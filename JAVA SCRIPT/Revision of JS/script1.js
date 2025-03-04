@@ -206,5 +206,60 @@
 //                         .filter((item)=>item%2==1)
 // console.log(newNum);
 
-/************************Reduce************************** */
+// const myMap=new Map();
+// myMap.set("USA","Washington")
+// myMap.set("India","NewDelhi")
+// myMap.set("China","Beijing")
+// myMap.set("Thailand","Colombo")
+// myMap.set("France","Paris")
+
+// //console.log(myMap);
+
+// console.log(myMap.get("India"));
+ 
+// myMap.delete("Thailand")
+
+// console.log(myMap);
+
+
+// for (const [key, value] of myMap) 
+//     {
+//          console.log(key, ':->', value);
+        
+//     }
+
+// function checkKey(key) {
+//     return myMap.has(key);
+// }
+   
+// console.log(checkKey("India"));
+ 
+// const student = new Map()
+// student.set("Misthi",98)
+// student.set("Ayush",90)
+// student.set("Vinay",90)
+// student.set("Rahul",96)
+// student.set("Bhavesh",9)
+
+// for (const [key,value] of student) 
+//     {
+//         console.log(key, ':->', value);
+//     }
+
+// student.forEach((value,key)=>{
+//     console.log(key,':->',value);
+    
+// })
+
+// let students = new Map([
+//     ["Alice", 90],
+//     ["Bob", 85],
+//     ["Charlie", 92]
+// ]);
+
+// for (let [name, score] of students) {
+//     console.log(`${name}: ${score}`);
+// }
+
+/************************Reduce***************************/
 
