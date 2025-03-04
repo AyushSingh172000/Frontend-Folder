@@ -145,3 +145,29 @@ const coding = ["js", "rb", "py", "java", "cpp"]
 // })
 // console.log(newNums);
 
+const books=[
+    {
+        title: 'Book One', genre: 'Fiction', publish: 1981, edition: 2004
+    },
+    {
+        title: 'Book Two', genre: 'Fiction', publish: 1921, edition: 2008
+    },
+    {
+        title: 'Book Three', genre: 'History', publish: 1971, edition: 2010
+    },
+    {
+        title: 'Book Four', genre: 'Science', publish: 1941, edition: 2004
+    },
+    {
+        title: 'Book Five', genre: 'Science', publish: 2020, edition: 2025
+    },
+    
+];
+
+// const userBooks = books.filter((item)=>{return item.edition===2004})
+// console.log(userBooks);
+
+// let userBooks = books.filter((item)=>{
+//     return item.genre === 'Science'
+// })
+// console.log(userBooks);
