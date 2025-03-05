@@ -213,6 +213,39 @@ console.log(BooleanLoggedIn);           // true
 
 // console.log(Math.floor(Math.random()*(max-min+1))+min);
 
+/***********************************************************Date()************************************************************* */
+
+// let myDate = new Date()
+// console.log(myDate.toString());
+// console.log(myDate.toISOString());
+// console.log(myDate.toUTCString());
+// console.log(myDate.toLocaleDateString());
+// console.log(typeof myDate);
+
+//let myTimeStamp = Date.now()
+//console.log(myTimeStamp/1000);
+//console.log(Math.floor(Date.now()/1000));
+
+// let newDate = new Date()
+// console.log(newDate);
+// console.log(newDate.getMonth()+1);
+// console.log(newDate.getDay());
+// console.log(newDate.getDate());
+
+/******************************************************Array************************************************************ */
+
+let arr1 = new Array(10,20,30,4,58,6,20)
+arr1.push(6)
+arr1.push(9)
+console.log(arr1);
+
+
+const arr2 = [10,2,5,"ayush","kalam", 45, 475, true]
+arr2.push(8)
+arr2.push("hey")
+console.log(arr2);
+
+
 
 
 
