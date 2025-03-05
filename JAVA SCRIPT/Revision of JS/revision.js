@@ -1,15 +1,19 @@
 console.log("Hi Developers!!!!");
 //alert(3+3) // it will run on browser but on node it will throw an error.
 /** Data Types in JS
+ * :-> Primitive Datatypes
  * 1. Number
  * 2. String
  * 3. Boolean
- * 4. Objects
- * 5. Bigint
- * 6. Null :-> standalone value type of null is : Object.
- * 7. Undefined
- * 8. Symbol
+ * 4. Bigint
+ * 5. Null :-> standalone value type of null is : Object.
+ * 6. Undefined
+ * 7. Symbol
  
+ :-> Non-Primitive Datatypes
+    1. Objects
+    2. Array
+    3. Function
 
 console.log(typeof null);       // Object
 console.log(typeof undefined);  // undefined
@@ -36,8 +40,8 @@ console.log(BooleanLoggedIn);           // true
 
 /********************************************Operations************************************************* */
 
-let value = 3
-let negValue = -value
+// let value = 3
+// let negValue = -value
 //console.log(negValue);
 // console.log(2+2);
 // console.log(2-2);
@@ -104,4 +108,112 @@ let negValue = -value
 //console.log(0 || "Hello")  // it will return first truthy value
 
 //console.log(0 && "Hello") // it will return first falsy value
+
+// console.log("start");
+// let a = 10;
+// var b = 20;
+// const c = 30;
+// {
+//   let a = 100;
+//   var b = 200;
+//   const c = 300;
+//   console.log(a);
+//   console.log(b);
+//   console.log(c);
+// }
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// console.log("end");
+
+// console.log("start");
+// let a = 10;
+// var b = 20;
+// const c = 30;
+// {
+//   let a = 10;
+//   console.log(a);
+//   const c = 300;
+//   console.log(b);
+//   b = 200;
+//   //c = 30;         it will throw an error because const keyword declared value never get change.
+//   console.log(b);
+// }
+// console.log(a);
+// console.log(b);
+// console.log("end");
+
+// const id = Symbol('123')
+// const anotherId = Symbol('123')
+
+// console.log(id === anotherId);  // false
+
+/********************************************String************************************************* */
+
+/*************************Replace()***************************** */
+
+// const url = "https://ayush.com/ayush%20Singh"
+// console.log(url);
+
+// console.log(url.replace('%20','_'));
+
+/*************************Trim()***************************** */
+
+// let val = "                  Hello Ayush Singh                  ";
+// console.log(val);
+
+// console.log(val.trim());
+
+/*************************Slice()***************************** */
+
+// const str = "Hi buddy I am Developer!"
+// const anotherStr = str.slice(10, 12)
+// console.log(anotherStr);
+
+/*************************Split()***************************** */
+
+// const url = "https://ayush_com/ayush_Singh"
+// console.log(url.split('_'));
+
+/******************************************************Numbers**&**Maths*************************************************************/
+
+// const Balance = new Number(100)
+// console.log(Balance);
+
+// const strBalance = Balance.toString();
+// console.log(typeof strBalance);
+// console.log(strBalance.length);
+
+// const otherNumber = 123.4268
+
+// console.log(otherNumber.toPrecision(5));
+
+// const hundreds = 1000000000000
+// console.log(hundreds.toLocaleString());
+// console.log(hundreds.toLocaleString('en-IN'));
+
+/*****************************************************************Maths************************************************************ */
+
+//console.log(Math);
+// console.log(Math.abs(-20));
+// console.log(Math.round(5.6));
+// console.log(Math.ceil(2.8));
+// console.log(Math.floor(7.9));
+//console.log(Math.max(4,8,7,6,5,2));
+//console.log(Math.min(4,8,7,6,5,2));
+
+
+// console.log(Math.random());      // It gives the random numbers btw 0-1
+// console.log((Math.random()*10)+1);   // It shift the value on left side.
+// console.log(Math.floor(Math.random()*10)+1); // It gives the random number btw 1-9
+
+/*************************Important Line For Future******************************/
+// const min = 10;
+// const max = 20;
+
+// console.log(Math.floor(Math.random()*(max-min+1))+min);
+
+
+
+
 
