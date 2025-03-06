@@ -271,9 +271,66 @@ console.log(BooleanLoggedIn);           // true
 
 // console.log(Array.of(score1, score2, score3));   It will converts multiple variable into a single array in one shot.
 
+//const newArr = [10,30,25,78,40,50,32,48,75,15]
+
+// newArr.filter((item,index)=>{
+//     if (item>40 && index>2) {
+//         return console.log(item + " : is greater than 40 and the index of the value is : "+index);
+        
+//     }
+// })
+
+// let arr = newArr.map(item => item*2)
+// console.log(arr);                        // using for the single line statement.
+
+
+// let revArr = newArr.reverse();
+// console.log(revArr);
+
+// let sortArr = newArr.sort();
+// console.log(sortArr);
+
+
+//let evenArr = 
+// newArr.forEach((val)=>{
+//     if (val%2===0) {
+//         return console.log(val+" "+"is an even number.");  
+//     }
+
+// }
+// );
+// console.log(evenArr);
+
+// newArr.map((item,index)=>{
+//     if (item%2===0) {
+//         return console.log("Even Numbers are "+item);
+        
+//     }
+     
+// })
+
+
 
 /******************************************************Objects************************************************************ */
 
+//Object it will work on key and value pair.
+
+const Obj1 = {
+    name: "Ayush",
+    email: "ayush@gmail.com",
+    phone: 6392301514,
+    age: 25,
+    location: "Varanasi",
+    company: "VSPL"
+}
+console.log(Obj1.name);
+console.log(Obj1.email);
+console.log(Obj1.phone);
+console.log(Obj1.age);
+console.log(Obj1.location);
+
+Obj1.age = 26
+console.log(Obj1.age);
 
 
 
