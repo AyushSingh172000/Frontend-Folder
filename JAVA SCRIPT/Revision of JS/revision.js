@@ -262,8 +262,17 @@ console.log(BooleanLoggedIn);           // true
 // const mergeArr=[...marvel_heros, ...dc_heros]
 // console.log(mergeArr);
 
+// console.log(Array.isArray("Ayush"));
+// console.log(Array.from("Ayush"));
+
+// let score1 = 100
+// let score2 = 100
+// let score3 = 100
+
+// console.log(Array.of(score1, score2, score3));   It will converts multiple variable into a single array in one shot.
 
 
+/******************************************************Objects************************************************************ */
 
 
 
