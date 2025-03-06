@@ -243,6 +243,7 @@ console.log(arr1);
 const arr2 = [10,2,5,"ayush","kalam", 45, 475, true]
 arr2.push(8)
 arr2.push("hey")
+arr2.unshift(9)
 console.log(arr2);
 
 
