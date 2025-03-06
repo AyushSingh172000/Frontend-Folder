@@ -323,14 +323,25 @@ const Obj1 = {
     location: "Varanasi",
     company: "VSPL"
 }
-console.log(Obj1.name);
-console.log(Obj1.email);
-console.log(Obj1.phone);
-console.log(Obj1.age);
-console.log(Obj1.location);
+// console.log(Obj1.name);
+// console.log(Obj1.email);
+// console.log(Obj1.phone);
+// console.log(Obj1.age);
+// console.log(Obj1.location);
 
-Obj1.age = 26
-console.log(Obj1.age);
+// Obj1.age = 26
+// console.log(Obj1.age);
+
+// Obj1.greeting = function () {
+//     console.log("Hello Developers What is up!!!!");
+    
+// }
+// console.log(Obj1.greeting());
+// Obj1.greeting2 = function () {
+//     console.log(`Hello ${this.name} What is up!!!!`);
+    
+// }
+// console.log(Obj1.greeting2());
 
 
 
