@@ -234,17 +234,39 @@ console.log(BooleanLoggedIn);           // true
 
 /******************************************************Array************************************************************ */
 
-let arr1 = new Array(10,20,30,4,58,6,20)
-arr1.push(6)
-arr1.push(9)
-console.log(arr1);
+// let arr1 = new Array(10,20,30,4,58,6,20)
+// arr1.push(6)
+// arr1.push(9)
+// console.log(arr1);
 
 
-const arr2 = [10,2,5,"ayush","kalam", 45, 475, true]
-arr2.push(8)
-arr2.push("hey")
-arr2.unshift(9)
-console.log(arr2);
+// const arr2 = [10,2,5,"ayush","kalam", 45, 475, true]
+// arr2.push(8)
+// arr2.push("hey")
+// arr2.unshift(9)
+// console.log(arr2);
+// console.log(arr2.includes(2));
+// console.log(arr2.indexOf(5));
+
+// const newArr = arr1.join()
+// console.log(arr1);
+// console.log(typeof newArr);
+// console.log(newArr);
+
+//const marvel_heros=["Ironman","Thor","CaptainAmerica"]
+//const dc_heros=["Batman","flash","superman"]
+// const newArr=marvel_heros.concat(dc_heros)
+// console.log(newArr);
+
+                            // Spread Operator/Method//
+// const mergeArr=[...marvel_heros, ...dc_heros]
+// console.log(mergeArr);
+
+
+
+
+
+
 
 
 
