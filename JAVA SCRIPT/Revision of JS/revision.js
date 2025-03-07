@@ -343,13 +343,13 @@ const Obj1 = {
 // }
 // console.log(Obj1.greeting2());
 
-const Obj2 = new Object()
-//console.log(Obj2);
+const demo = new Object()
+//console.log(demo);
 
-Obj2.id="121"
-Obj2.name="Ayush"
-Obj2.isLoggedIn= false
-//console.log(Obj2);
+demo.id="121"
+demo.name="Kalash"
+demo.isLoggedIn= false
+//console.log(demo);
 
 const regularUser ={
     email: "ayush@gmail.com",
@@ -361,7 +361,15 @@ const regularUser ={
 
 //console.log(regularUser.fullName);
 
-const combinedObject = {}
+//const combinedObject = {Obj1,Obj2}
 
+// console.log(combinedObject);
+
+// const combinedObject = Object.assign({}, Obj1, Obj2, regularUser.email, regularUser.fullName)
+// console.log(combinedObject);
+
+
+const finalObject = {...Obj1, ...demo, ...regularUser}
+console.log(finalObject);
 
 
