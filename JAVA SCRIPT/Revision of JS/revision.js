@@ -343,10 +343,25 @@ const Obj1 = {
 // }
 // console.log(Obj1.greeting2());
 
+const Obj2 = new Object()
+//console.log(Obj2);
 
+Obj2.id="121"
+Obj2.name="Ayush"
+Obj2.isLoggedIn= false
+//console.log(Obj2);
 
+const regularUser ={
+    email: "ayush@gmail.com",
+    fullName:{
+        firstName:"Ayush",
+        lastName: "Singh"
+    }
+}
 
+//console.log(regularUser.fullName);
 
+const combinedObject = {}
 
 
 
