@@ -373,3 +373,18 @@ console.log(BooleanLoggedIn);           // true
 // console.log(finalObject);
 
 
+const course = {
+    coursename: "js in english",
+    price: "9999",
+    courseInstructor: "ayush"
+}
+
+//console.log(course.courseInstructor);
+
+const {courseInstructor: instructor}=course
+console.log(instructor);
+
+const {courseInstructor}=course
+console.log(courseInstructor);
+
+ 
