@@ -315,14 +315,14 @@ console.log(BooleanLoggedIn);           // true
 
 //Object it will work on key and value pair.
 
-const Obj1 = {
-    name: "Ayush",
-    email: "ayush@gmail.com",
-    phone: 6392301514,
-    age: 25,
-    location: "Varanasi",
-    company: "VSPL"
-}
+// const Obj1 = {
+//     name: "Ayush",
+//     email: "ayush@gmail.com",
+//     phone: 6392301514,
+//     age: 25,
+//     location: "Varanasi",
+//     company: "VSPL"
+// }
 // console.log(Obj1.name);
 // console.log(Obj1.email);
 // console.log(Obj1.phone);
@@ -343,21 +343,21 @@ const Obj1 = {
 // }
 // console.log(Obj1.greeting2());
 
-const demo = new Object()
+// const demo = new Object()
+// //console.log(demo);
+
+// demo.id="121"
+// demo.name="Kalash"
+// demo.isLoggedIn= false
 //console.log(demo);
 
-demo.id="121"
-demo.name="Kalash"
-demo.isLoggedIn= false
-//console.log(demo);
-
-const regularUser ={
-    email: "ayush@gmail.com",
-    fullName:{
-        firstName:"Ayush",
-        lastName: "Singh"
-    }
-}
+// const regularUser ={
+//     email: "ayush@gmail.com",
+//     fullName:{
+//         firstName:"Ayush",
+//         lastName: "Singh"
+//     }
+// }
 
 //console.log(regularUser.fullName);
 
@@ -369,7 +369,7 @@ const regularUser ={
 // console.log(combinedObject);
 
 
-const finalObject = {...Obj1, ...demo, ...regularUser}
-console.log(finalObject);
+// const finalObject = {...Obj1, ...demo, ...regularUser}
+// console.log(finalObject);
 
 
