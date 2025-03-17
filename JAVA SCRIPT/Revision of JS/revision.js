@@ -372,6 +372,7 @@ console.log(BooleanLoggedIn);           // true
 // const finalObject = {...Obj1, ...demo, ...regularUser}
 // console.log(finalObject);
 
+/*************************************************Object_Destructuring************************************************************/
 
 const course = {
     coursename: "js in english",
@@ -387,4 +388,17 @@ console.log(instructor);
 const {courseInstructor}=course
 console.log(courseInstructor);
 
- 
+/*************************************************API***********************************************************/
+
+
+
+
+
+
+
+// for react:->
+// const navbar = ({company})=>{
+
+// }
+
+// navbar(company  = "Ayush")
